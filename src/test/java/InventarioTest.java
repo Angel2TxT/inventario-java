@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class InventarioTest {
     @Test
     void testCalcularSubTotal() {
-        int resultado = calcularSubTotal(50, 10);
+        int resultado = inventario.calcularSubTotal(50, 4);
         assertEquals(200, resultado);
     }
 }
