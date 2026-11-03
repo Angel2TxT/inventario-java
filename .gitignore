@@ -1,0 +1,6 @@
+target/
+*.class
+*.msi
+.vscode/
+.idea/
+*.iml
