@@ -5,6 +5,8 @@ public class InventarioTest {
     @Test
     void testCalcularSubTotal() {
         int resultado = inventario.calcularSubTotal(50, 4);
-        assertEquals(200, resultado);
+        // Fallo intencional: se espera 999 pero el resultado es 200
+        assertEquals(999, resultado);
     }
 }
+
