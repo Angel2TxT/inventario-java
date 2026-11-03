@@ -26,3 +26,6 @@ jobs:
 
       - name: Compilar, probar y empaquetar
         run: mvn --batch-mode clean package
+
+      - name: Ejecutar la aplicación
+        run: java -cp target/inventario-1.0.0.jar inventario
